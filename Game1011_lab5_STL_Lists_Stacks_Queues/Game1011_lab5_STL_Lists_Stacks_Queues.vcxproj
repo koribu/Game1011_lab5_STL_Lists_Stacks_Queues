@@ -139,12 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="DynTempQueue.h" />
+    <ClInclude Include="DynTempQueue.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="DynTempStack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DynTempQueue.cpp" />
-    <ClCompile Include="DynTempStack.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
