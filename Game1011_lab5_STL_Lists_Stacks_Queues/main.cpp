@@ -25,7 +25,7 @@ int main()
 	
 	//----------Dynamic Stacks Demonstration------------//
 	
-	cout << "     //----------Dynamic Stacks Demonstration------------//" << endl << endl;	
+	cout << "\n     //----------Dynamic Stacks Demonstration------------//" << endl << endl;	
 	cout << "--+ Pushing to Dynamic Template Stacks... +--" << endl<<endl;
 	cout << "Pushed Floats are: ";
 
@@ -67,7 +67,7 @@ int main()
 	cout << "--+ Enqueueing to Dynamic Template Queue... +--" << endl << endl;
 	cout << "Enqueued Floats are: ";
 
-	for (int i = 0; i < 20; i+=2)    //Enqueueing ints to the int Queue List
+	for (int i = 0; i < 20; i+=2)    //Enqueueing Ints to the int Queue List
 	{
 		cout << i << ", ";
 		intQueueList.enqueue(i);
